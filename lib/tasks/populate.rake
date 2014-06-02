@@ -4,7 +4,7 @@ namespace :db do
     # Generate fixed users Yitao and Ed
   	yitao = User.create(name: "Yitao", email: "yitao@example.com")
   	ed = User.create(name: "Ed", email: "ed@example.com")
-    pcc = User.create(name: "pcc", email: "pcc@gmail.com")
+    #pcc = User.create(name: "pcc", email: "pcc@gmail.com")
 
     # Generate 98 additional random users
       users = [ yitao, ed ]
